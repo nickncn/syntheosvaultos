@@ -56,6 +56,9 @@ _Modular. Permissionless. AI-Powered. ZK-Ready. Powered by Pragma._
 
 ##  Try It Yourself
 
+🔗 **Live Demo:** [https://vaultos.vercel.app](https://starknetsyntheosvaultos.vercel.app)
+
+OR
 ```bash
 git clone https://github.com/YOUR_GITHUB_USERNAME/syntheosvaultos.git
 cd syntheosvaultos
