@@ -93,6 +93,16 @@ Most Innovative Yield	AI-driven routing, open strategy market, live volatility s
 Build With Pragma	Oracle integration powers CDR & risk engine, volatility triggers AI switching
 Commercial Potential	Loyalty tiers, extensible UI, developer SDK, high user retention model
 
+## 🔗 Deployed Contracts (Starknet Sepolia)
+
+| Contract         | Address                                                                 |
+|------------------|-------------------------------------------------------------------------|
+| Strategy Vault   | `0x05506962650e06cc50462e413e1789a07c738264dbf044f5368d9d1c279f30ac`    |
+| Ekubo Strategy   | `0x024ea504835853c7777d32429bfe27b9ba35a0234af662ad0c001b6a38f80847`    |
+| Vesu Strategy    | `0x013cf2bc5f41ccf8ed30413efaa7a433e02b1d19b8e0fb6f08309df3fa7a2509`    |
+| MockBTC Token    | `0x03bb7c03134c566cdb352914fe4cb4f8383eaf8cf1556dd758a59ada849bb594`    |
+
+
 Credits
 Built by Nick Ng from Syntheos
 
