@@ -88,11 +88,13 @@ trait IStrategy {
 
 
 ## Prize Tracks
-Prize	Why We Qualify
-Best Use of Starknet	Modular contracts, AA-compatible, ZK support, on-chain registry, Cairo-native
-Most Innovative Yield	AI-driven routing, open strategy market, live volatility signals
-Build With Pragma	Oracle integration powers CDR & risk engine, volatility triggers AI switching
-Commercial Potential	Loyalty tiers, extensible UI, developer SDK, high user retention model
+
+| Prize         | 	Why We Qualify           
+|------------------|-------------------------------------------------------------------------|
+| Best Use of Starknet   | Modular contracts, AA-compatible, ZK support, on-chain registry, Cairo-native    |
+| Most Innovative Yield   | AI-driven routing, open strategy market, live volatility signals    |
+| Build With Pragma    | Oracle integration powers CDR & risk engine, volatility triggers AI switching   |
+| Commercial Potential    | Loyalty tiers, extensible UI, developer SDK, high user retention model   |
 
 
 ## Deployed Contracts (Starknet Sepolia)
