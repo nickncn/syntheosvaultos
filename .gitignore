@@ -1,0 +1,9 @@
+# .gitignore
+.env
+.env.local
+node_modules/
+.next/
+dist/
+.DS_Store
+.vercel/
+node_modules

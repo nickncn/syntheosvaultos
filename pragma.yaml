@@ -1,0 +1,18 @@
+project: "btc_vault"
+
+contracts:
+  - name: MockBTC
+    address: 0x03bb7c03134c566cdb352914fe4cb4f8383eaf8cf1556dd758a59ada849bb594
+    description: ERC20-style BTC token used for testing
+    tags: [erc20, mock, testnet]
+
+  - name: Vault
+    address: 0x05506962650e06cc50462e413e1789a07c738264dbf044f5368d9d1c279f30ac
+    description: u256 BTC vault with deposit and withdraw
+    tags: [vault, deposit, u256]
+
+feeds:
+  - id: "btc_usd"
+    type: "price"
+    asset: "btc"
+    currency: "usd"

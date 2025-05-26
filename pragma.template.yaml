@@ -1,0 +1,22 @@
+name: BTC Vault Demo
+description: Simple vault using MockBTC ERC20-compatible token.
+authors:
+  - yourname.eth
+license: MIT
+
+contracts:
+  - name: MockBTC
+    address: ${NEXT_PUBLIC_MOCKBTC_ADDRESS}
+    description: ERC20-style BTC token used for testing
+    tags: [erc20, mock, testnet]
+
+  - name: Vault
+    address: ${NEXT_PUBLIC_VAULT_ADDRESS}
+    description: u256 BTC vault with deposit and withdraw
+    tags: [vault, deposit, u256]
+
+feeds:
+  - id: "btc_price"
+    type: price
+    asset: "btc"
+    currency: "usd"

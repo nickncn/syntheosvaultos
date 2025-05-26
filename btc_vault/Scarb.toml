@@ -1,0 +1,31 @@
+[package]
+name = "btc_vault"
+version = "0.1.0"
+edition = "2023_10"
+
+[dependencies]
+starknet = "2.1.0"
+
+[[target.starknet-contract]]
+name = "mock_btc"
+path = "src/mock_btc.cairo"
+
+[[target.starknet-contract]]
+name = "vault"
+path = "src/lib.cairo"
+
+[[target.starknet-contract]]
+name = "vesu_strategy"
+path = "src/vesu_strategy.cairo"
+
+[[target.starknet-contract]]
+name = "ekubo_strategy"
+path = "src/ekubo_strategy.cairo"
+
+[[target.starknet-contract]]
+name = "istrategy"
+path = "src/IStrategy.cairo"
+
+[[target.starknet-contract]]
+name = "strategyvault"
+path = "src/StrategyVault.cairo"

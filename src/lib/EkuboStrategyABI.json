@@ -1,0 +1,62 @@
+[
+    {
+        "type": "struct",
+        "name": "core::integer::u256",
+        "members": [
+            {
+                "name": "low",
+                "type": "core::integer::u128"
+            },
+            {
+                "name": "high",
+                "type": "core::integer::u128"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "deposit_btc",
+        "inputs": [
+            {
+                "name": "amount",
+                "type": "core::integer::u256"
+            }
+        ],
+        "outputs": [],
+        "state_mutability": "external"
+    },
+    {
+        "type": "function",
+        "name": "withdraw_btc",
+        "inputs": [
+            {
+                "name": "amount",
+                "type": "core::integer::u256"
+            }
+        ],
+        "outputs": [],
+        "state_mutability": "external"
+    },
+    {
+        "type": "function",
+        "name": "get_btc_balance",
+        "inputs": [
+            {
+                "name": "user",
+                "type": "core::starknet::contract_address::ContractAddress"
+            }
+        ],
+        "outputs": [
+            {
+                "type": "core::integer::u256"
+            }
+        ],
+        "state_mutability": "view"
+    },
+    {
+        "type": "event",
+        "name": "btc_vault::btc_vault::Event",
+        "kind": "enum",
+        "variants": []
+    }
+]

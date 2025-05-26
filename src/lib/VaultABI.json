@@ -1,0 +1,13 @@
+[
+    {
+        "name": "deposit",
+        "type": "function",
+        "inputs": [
+            {
+                "name": "amount",
+                "type": "felt"
+            }
+        ],
+        "outputs": []
+    }
+]

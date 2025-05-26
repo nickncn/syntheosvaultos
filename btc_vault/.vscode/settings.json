@@ -1,0 +1,6 @@
+{
+    "cairo1Lsp.scarbPath": "Scarb.toml",
+    "files.associations": {
+        "*.cairo": "cairo"
+    }
+}

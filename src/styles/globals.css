@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Root layout setup */
+html,
+body,
+#__next {
+    @apply text-white min-h-screen relative;
+    background: radial-gradient(ellipse at 20% 80%, #3431ba 0%, #000000 30%, #1b0fff 100%);
+    background-size: 150% 150%;
+    animation: backgroundPulse 20s ease-in-out infinite;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+    z-index: 0;
+}
+
+/* Optional ambient effect layer */
+html::before,
+body::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+    /* darken overlay for contrast */
+    z-index: -1;
+    pointer-events: none;
+}
+
+/* Keyframes */
+@keyframes backgroundPulse {
+
+    0%,
+    100% {
+        background-position: 50% 50%;
+    }
+
+    50% {
+        background-position: 47% 53%;
+    }
+}
+
+/* Card UI style */
+@layer utilities {
+    .card-3d {
+        @apply bg-white/10 backdrop-blur-xl rounded-2xl border border-white/10 p-6 transition-shadow duration-300;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    }
+
+    .card-3d:hover {
+        box-shadow: 0 12px 40px rgba(108, 93, 211, 0.3);
+    }
+}
+
+/* Glow feedback */
+.deposit-glow {
+    animation: glow 1.5s ease-out;
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: inset 0 0 0 0 transparent;
+        background-color: white;
+    }
+
+    50% {
+        box-shadow: inset 0 0 60px 30px #00ffcc;
+        background-color: #e6fffa;
+    }
+
+    100% {
+        box-shadow: inset 0 0 0 0 transparent;
+        background-color: white;
+    }
+}
