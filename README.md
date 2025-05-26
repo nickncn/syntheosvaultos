@@ -86,6 +86,7 @@ trait IStrategy {
 
 - Permissionless plugin registration for devs
 
+
 ## Prize Tracks
 Prize	Why We Qualify
 Best Use of Starknet	Modular contracts, AA-compatible, ZK support, on-chain registry, Cairo-native
@@ -93,7 +94,8 @@ Most Innovative Yield	AI-driven routing, open strategy market, live volatility s
 Build With Pragma	Oracle integration powers CDR & risk engine, volatility triggers AI switching
 Commercial Potential	Loyalty tiers, extensible UI, developer SDK, high user retention model
 
-## 🔗 Deployed Contracts (Starknet Sepolia)
+
+## Deployed Contracts (Starknet Sepolia)
 
 | Contract         | Address                                                                 |
 |------------------|-------------------------------------------------------------------------|
