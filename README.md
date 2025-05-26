@@ -40,7 +40,8 @@ _Modular. Permissionless. AI-Powered. ZK-Ready. Powered by Pragma._
 
 ##  Architecture Overview
 
-![VaultOS Architecture Diagram](./public/architecture.svg)
+![VaultOS Architecture Diagram](./public/architecture.png)
+
 
 ### Components
 
